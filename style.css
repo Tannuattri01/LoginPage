@@ -1,0 +1,181 @@
+body {
+    background-color: black;
+}
+
+.div1 {
+    background-image: linear-gradient(blue, skyblue);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left: 417px;
+    
+}
+
+.div2 {
+    background-image: linear-gradient(rgb(255, 47, 0), rgb(235, 207, 135));
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 1000px;
+    bottom: 3px;
+}
+
+.div3 {
+    background-color: rgb(70 68 68 / 35%);
+    height: 672px;
+    width: 548px;
+    border-radius: 5px;
+    position: relative;
+    left: 555px;
+    bottom: 174px;
+    backdrop-filter: blur(10px);
+}
+
+.Login {
+    font-size: xxx-large;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    left: 180px;
+    top: 81px;
+}
+
+.username {
+    font-size: x-large;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.div5 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.place {
+    color: white;
+    background-color: #00000073;
+    height: 55px;
+    width: 480px;
+    position: relative;
+    top: 112px;
+    left: 40px;
+    border: none;
+    font-weight: 900;
+}
+
+.Password {
+    font-size: x-large;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+}
+
+.pass {
+    color: white;
+    background-color: #00000073;
+    height: 55px;
+    width: 480px;
+    position: relative;
+    top: 112px;
+    left: 40px;
+    border: none;
+    font-weight: 900;
+}
+
+.div6 {
+    transition: 0.2;
+}
+
+.log {
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 40px;
+    margin-top: 117px;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.log:hover {
+    transform: scale(1.05);
+    color: rgb(53, 51, 51);
+    background-color: white;
+}
+
+.google {
+    height: 50px;
+    width: 150px;
+    background-color: #ffffff4d;
+    color: white;
+    margin-top: 74px;
+    margin-left: 74px;
+    font-size: xx-large;
+    display: flex;
+    border: none;
+    transition: 0.5s;
+    padding: 7px 0 0 10px;
+}
+
+.img {
+    height: 20px;
+    width: 20px;
+    margin-right: 9px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.img2 {
+    height: 20px;
+    width: 20px;
+    margin-right: 9px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.facebook {
+    height: 50px;
+    width: 188px;
+    background-color: #ffffff4d;
+    color: white;
+    display: flex;
+    margin: 73px;
+    padding: 7px 0 0 10px;
+
+    font-size: xx-large;
+    border: none;
+    transition: 0.5s;
+}
+
+.div7 {
+    display: flex;
+}
+
+.facebook:hover {
+    transform: scale(1.05);
+    color: rgb(53, 51, 51);
+}
+
+.google:hover {
+    transform: scale(1.05);
+    color: rgb(53, 51, 51);
+}
